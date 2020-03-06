@@ -4,10 +4,11 @@ namespace WordCounter.Models
 {
     public class EnglishDictionary
     {
-        public string UseDict()
-        
+        public string UseDict(string sentence, string word)
+        {
+            public string words =
 
-                A
+                "A
 a
 aa
 aal
@@ -235892,7 +235893,7 @@ zythem
 Zythia
 zythum
 Zyzomys
-Zyzzogeton
+Zyzzogeton";
             };
             return englishWords;
         }
