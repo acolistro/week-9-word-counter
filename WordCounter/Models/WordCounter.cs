@@ -9,5 +9,10 @@ namespace WordCounter.Models {
       bool result = (sentence.Contains(word));
       return result;
     }
+
+    public int HowMany(string sentence, string word)
+    {
+      return 0;
+    }
   }
 }
