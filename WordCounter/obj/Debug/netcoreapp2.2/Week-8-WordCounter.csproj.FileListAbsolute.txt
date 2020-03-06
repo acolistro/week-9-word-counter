@@ -1,0 +1,11 @@
+C:\Users\ThinkPad\desktop\Week-8-WordCounter.Solutions\Week-8-WordCounter\bin\Debug\netcoreapp2.2\Week-8-WordCounter.deps.json
+C:\Users\ThinkPad\desktop\Week-8-WordCounter.Solutions\Week-8-WordCounter\bin\Debug\netcoreapp2.2\Week-8-WordCounter.runtimeconfig.json
+C:\Users\ThinkPad\desktop\Week-8-WordCounter.Solutions\Week-8-WordCounter\bin\Debug\netcoreapp2.2\Week-8-WordCounter.runtimeconfig.dev.json
+C:\Users\ThinkPad\desktop\Week-8-WordCounter.Solutions\Week-8-WordCounter\bin\Debug\netcoreapp2.2\Week-8-WordCounter.dll
+C:\Users\ThinkPad\desktop\Week-8-WordCounter.Solutions\Week-8-WordCounter\bin\Debug\netcoreapp2.2\Week-8-WordCounter.pdb
+C:\Users\ThinkPad\desktop\Week-8-WordCounter.Solutions\Week-8-WordCounter\obj\Debug\netcoreapp2.2\Week-8-WordCounter.csprojAssemblyReference.cache
+C:\Users\ThinkPad\desktop\Week-8-WordCounter.Solutions\Week-8-WordCounter\obj\Debug\netcoreapp2.2\Week-8-WordCounter.csproj.CoreCompileInputs.cache
+C:\Users\ThinkPad\desktop\Week-8-WordCounter.Solutions\Week-8-WordCounter\obj\Debug\netcoreapp2.2\Week-8-WordCounter.AssemblyInfoInputs.cache
+C:\Users\ThinkPad\desktop\Week-8-WordCounter.Solutions\Week-8-WordCounter\obj\Debug\netcoreapp2.2\Week-8-WordCounter.AssemblyInfo.cs
+C:\Users\ThinkPad\desktop\Week-8-WordCounter.Solutions\Week-8-WordCounter\obj\Debug\netcoreapp2.2\Week-8-WordCounter.dll
+C:\Users\ThinkPad\desktop\Week-8-WordCounter.Solutions\Week-8-WordCounter\obj\Debug\netcoreapp2.2\Week-8-WordCounter.pdb

@@ -7,11 +7,13 @@ namespace WordCounter.Tests {
   [TestClass]
   public class ChangeNameOfClassTests {
     [TestMethod]
-    public void ContainsString_ChecksStringForSubstring_bool () {
-      RepeatCounter sentence = new RepeatCounter("Hello world");
-      string word = "Hell";
-      Assert.IsTrue (sentence.ContainsString(word));
+    public void ContainsString_ChecksStringForSubstring_bool () 
+    {
+      RepeatCounter test = new RepeatCounter();
+      string sentence = "Hello world";
+      string word = "llo";
+      bool result = test.ContainsString(sentence, word);
+      Assert.IsTrue (result);
     }
-
   }
 }
