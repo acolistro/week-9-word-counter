@@ -10,7 +10,7 @@ namespace WordCounter.Tests {
     public void ContainsString_ChecksStringForSubstring_bool () {
       string sentence = "Hello world";
       string word = "Hell";
-      Assert.isTrue (sentence, word);
+      Assert.isFalse (sentence, word);
     }
 
   }
