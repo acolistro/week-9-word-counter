@@ -12,7 +12,13 @@ namespace WordCounter.Models {
 
     public int HowMany(string sentence, string word)
     {
-      return 0;
+      int counter = 0;
+      while (sentence.Contains(word))
+      {
+        sentence = sentence.Remove(sentence.IndexOf(word),word.Length);
+        counter += 1;
+      }
+      return counter;
     }
   }
 }

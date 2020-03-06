@@ -20,10 +20,10 @@ namespace WordCounter.Tests {
       public void HowMany_ChecksNumberofSubstringOccurences_int () 
       {
         RepeatCounter test = new RepeatCounter();
-        string sentence = "a category of cats";
+        string sentence = "a catty category of cats";
         string word = "cat";
         int result = test.HowMany(sentence, word);
-        Assert.AreEqual (2, result);
+        Assert.AreEqual (3, result);
       }
     }
   }
