@@ -8,9 +8,9 @@ namespace WordCounter.Tests {
   public class ChangeNameOfClassTests {
     [TestMethod]
     public void ContainsString_ChecksStringForSubstring_bool () {
-      string sentence = "Hello world";
+      RepeatCounter sentence = new RepeatCounter("Hello world");
       string word = "Hell";
-      Assert.isFalse (sentence, word);
+      Assert.IsTrue (sentence.ContainsString(word));
     }
 
   }
