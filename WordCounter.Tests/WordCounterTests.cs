@@ -32,7 +32,7 @@ namespace WordCounter.Tests {
         RepeatCounter test = new RepeatCounter();
         string sentence = "alskdjfalskdfj;laskdfasd";
         string word = "cat";
-        bool result = test.ContainsOnlyWords(sentence, word);
+        bool result = test.Validator(sentence, word);
         Assert.IsFalse(result);
       }
     }

@@ -1,7 +1,7 @@
 using System;
 
-namespace WordCounter.Models {
-  //change name of class.
+namespace WordCounter.Models 
+{
   public class RepeatCounter 
   {
     public bool ContainsString (string sentence, string word) 
@@ -19,6 +19,10 @@ namespace WordCounter.Models {
         counter += 1;
       }
       return counter;
+    }
+    public bool Validator(string sentence, string word)
+    {
+      if ()
     }
   }
 }
