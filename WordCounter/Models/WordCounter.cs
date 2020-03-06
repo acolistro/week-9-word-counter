@@ -1,4 +1,7 @@
 using System;
+using System.IO;
+using System.Collections.Generic;
+
 
 namespace WordCounter.Models 
 {
@@ -20,9 +23,12 @@ namespace WordCounter.Models
       }
       return counter;
     }
-    public bool Validator(string sentence, string word)
+    public void Validator(string word)
     {
-      if ()
+      string[] Words = Directory.GetFiles("../../../../WordCounter/Models", "*.txt");
+      IEnumerable<string> englishWords = File.ReadLines(Words[0]);
+    }
+        // public bool result = Words.Contains(word);
+        // return result;
     }
   }
-}

@@ -30,9 +30,8 @@ namespace WordCounter.Tests {
       public void Validator_AccountsforCaseAndNonWords_bool () 
       {
         RepeatCounter test = new RepeatCounter();
-        string sentence = "alskdjfalskdfj;laskdfasd";
         string word = "cat";
-        bool result = test.Validator(sentence, word);
+        bool result = test.Validator(word);
         Assert.IsFalse(result);
       }
     }
