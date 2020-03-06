@@ -25,5 +25,15 @@ namespace WordCounter.Tests {
         int result = test.HowMany(sentence, word);
         Assert.AreEqual (3, result);
       }
+
+      [TestMethod]
+      public void Validator_AccountsforCaseAndNonWords_bool () 
+      {
+        RepeatCounter test = new RepeatCounter();
+        string sentence = "alskdjfalskdfj;laskdfasd";
+        string word = "cat";
+        bool result = test.ContainsOnlyWords(sentence, word);
+        Assert.IsFalse(result);
+      }
     }
   }
