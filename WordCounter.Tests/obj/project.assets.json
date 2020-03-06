@@ -1663,14 +1663,14 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "Week-8-WordCounter/1.0.0": {
+      "WordCounter/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "compile": {
-          "bin/placeholder/Week-8-WordCounter.dll": {}
+          "bin/placeholder/WordCounter.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Week-8-WordCounter.dll": {}
+          "bin/placeholder/WordCounter.dll": {}
         }
       }
     }
@@ -5826,10 +5826,10 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "Week-8-WordCounter/1.0.0": {
+    "WordCounter/1.0.0": {
       "type": "project",
-      "path": "../Week-8-WordCounter/Week-8-WordCounter.csproj",
-      "msbuildProject": "../Week-8-WordCounter/Week-8-WordCounter.csproj"
+      "path": "../WordCounter/WordCounter.csproj",
+      "msbuildProject": "../WordCounter/WordCounter.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5838,7 +5838,7 @@
       "MSTest.TestFramework >= 1.2.0",
       "Microsoft.NET.Test.Sdk >= 15.0.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Week-8-WordCounter >= 1.0.0"
+      "WordCounter >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5848,11 +5848,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ThinkPad\\desktop\\WordCounter\\Week-8-WordCounter.Tests\\Week-8-WordCounter.Tests.csproj",
-      "projectName": "Week-8-WordCounter.Tests",
-      "projectPath": "c:\\Users\\ThinkPad\\desktop\\WordCounter\\Week-8-WordCounter.Tests\\Week-8-WordCounter.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\ThinkPad\\desktop\\WordCounter\\WordCounter.Tests\\WordCounter.Tests.csproj",
+      "projectName": "WordCounter.Tests",
+      "projectPath": "C:\\Users\\ThinkPad\\desktop\\WordCounter\\WordCounter.Tests\\WordCounter.Tests.csproj",
       "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ThinkPad\\desktop\\WordCounter\\Week-8-WordCounter.Tests\\obj\\",
+      "outputPath": "C:\\Users\\ThinkPad\\desktop\\WordCounter\\WordCounter.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5869,8 +5869,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "c:\\Users\\ThinkPad\\desktop\\WordCounter\\Week-8-WordCounter\\Week-8-WordCounter.csproj": {
-              "projectPath": "c:\\Users\\ThinkPad\\desktop\\WordCounter\\Week-8-WordCounter\\Week-8-WordCounter.csproj"
+            "C:\\Users\\ThinkPad\\desktop\\WordCounter\\WordCounter\\WordCounter.csproj": {
+              "projectPath": "C:\\Users\\ThinkPad\\desktop\\WordCounter\\WordCounter\\WordCounter.csproj"
             }
           }
         }
