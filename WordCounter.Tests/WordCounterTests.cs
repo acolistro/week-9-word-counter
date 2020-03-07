@@ -33,5 +33,15 @@ namespace WordCounter.Tests {
         string word = "cat";
         Assert.IsTrue(test.Validator(word));
       }
+
+      [TestMethod]
+      public void SentValidator_AccountsforCaseAndNonWords_bool () 
+      {
+        RepeatCounter test = new RepeatCounter();
+        string sentence = "asdf";
+        Assert.IsFalse(test.Validator(sentence));
+      }
+
+
     }
   }

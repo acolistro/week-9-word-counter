@@ -31,6 +31,21 @@ namespace WordCounter.Models
       bool result = englishWords.Contains<string>(word);
       return result;
     }
+
+    public bool SentValidator(string sentence)
+    {
+      string[] Words = Directory.GetFiles("./../WordCounter/Models/", "words.txt");
+      IEnumerable<string> englishWords = File.ReadLines(Words[0]);
+      string[] sentArray = sentence.Split(" ");
+      for (int i=0; i < sentArray.Length; i++)
+      {
+        // if ((englishWords.Contains<string>(sentArray[i])) == false)
+        // {
+        //   string result = Console.WriteLine("Your sentence contains one or more wrong words");
+        // }
+
+      }
+    }
   }
 }
         // return result;
