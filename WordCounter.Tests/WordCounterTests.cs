@@ -31,8 +31,7 @@ namespace WordCounter.Tests {
       {
         RepeatCounter test = new RepeatCounter();
         string word = "cat";
-        bool result = test.Validator(word);
-        Assert.IsFalse(result);
+        Assert.IsTrue(test.Validator(word));
       }
     }
   }

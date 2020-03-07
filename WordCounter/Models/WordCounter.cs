@@ -24,12 +24,15 @@ namespace WordCounter.Models
       }
       return counter;
     }
-    public void Validator(string word)
+    public bool Validator(string word)
     {
       string[] Words = Directory.GetFiles("../../../../WordCounter/Models", "*.txt");
       IEnumerable<string> englishWords = File.ReadLines(Words[0]);
-      bool result = englishWords.Contains<string>(word, englishWords);
+      bool result = englishWords.Contains<string>(word);
+      return result;
     }
+  }
+}
         // return result;
-    }
+    
   
