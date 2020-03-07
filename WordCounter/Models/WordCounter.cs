@@ -24,30 +24,44 @@ namespace WordCounter.Models
       }
       return counter;
     }
-    public bool Validator(string word)
-    {
-      string[] Words = Directory.GetFiles("./../WordCounter/Models/", "words.txt");
-      IEnumerable<string> englishWords = File.ReadLines(Words[0]);
-      bool result = englishWords.Contains<string>(word);
-      return result;
-    }
+//     public bool Validator(string word)
+//     {
+//       string[] Words = Directory.GetFiles("./../WordCounter/Models/", "words.txt");
+//       IEnumerable<string> englishWords = File.ReadLines(Words[0]);
+//       bool result = englishWords.Contains<string>(word);
+//       return result;
+//     }
 
-    public bool SentValidator(string sentence)
-    {
-      string[] Words = Directory.GetFiles("./../WordCounter/Models/", "words.txt");
-      IEnumerable<string> englishWords = File.ReadLines(Words[0]);
-      string[] sentArray = sentence.Split(" ");
-      for (int i=0; i < sentArray.Length; i++)
-      {
-        // if ((englishWords.Contains<string>(sentArray[i])) == false)
-        // {
-        //   string result = Console.WriteLine("Your sentence contains one or more wrong words");
-        // }
-
-      }
-    }
-  }
-}
+//     public bool SentValidator(string sentence)
+//     {
+//       string[] Words = Directory.GetFiles("*/../WordCounter/Models/", "words.txt");
+//       IEnumerable<string> englishWords = File.ReadLines(Words[0]);
+//       string[] sentArray = sentence.Split(" ");
+//       List<bool> result = new List<bool>();
+//       bool isValid;
+//       for (int i=0; i < sentArray.Length; i++)
+//       {
+//         if ((englishWords.Contains<string>(sentArray[i])) == false)
+//         {
+//           result.Add(false);
+//         }
+//         else
+//         {
+//           result.Add(true);
+//         }
+//       }
+//       if (result.Contains(false))
+//       {
+//         isValid = false;
+//       }
+//       else
+//       {
+//         isValid = true;
+//       }
+//       return isValid;
+//     }
+//   }
+// }
         // return result;
     
   
