@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Collections.Generic;
+using System.Linq;
 
 
 namespace WordCounter.Models 
@@ -27,8 +28,8 @@ namespace WordCounter.Models
     {
       string[] Words = Directory.GetFiles("../../../../WordCounter/Models", "*.txt");
       IEnumerable<string> englishWords = File.ReadLines(Words[0]);
+      bool result = englishWords.Contains<string>(word, englishWords);
     }
-        // public bool result = Words.Contains(word);
         // return result;
     }
-  }
+  
