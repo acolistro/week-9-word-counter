@@ -5,16 +5,16 @@ using WordCounter.Models;
 namespace WordCounter.Tests {
   //change name of test class.
   [TestClass]
-  public class ChangeNameOfClassTests 
+  public class WordTests 
   {
     [TestMethod]
-    public void ContainsString_ChecksStringForSubstring_bool () 
+    public void ContainsWord_ChecksStringForWord_bool () 
     {
       RepeatCounter test = new RepeatCounter();
       string sentence = "Hello world";
       string word = "llo";
-      bool result = test.ContainsString(sentence, word);
-      Assert.IsTrue (result);
+      bool result = test.ContainsWord(sentence, word);
+      Assert.IsFalse (result);
     }
       [TestMethod]
       public void HowMany_ChecksNumberofSubstringOccurences_int () 

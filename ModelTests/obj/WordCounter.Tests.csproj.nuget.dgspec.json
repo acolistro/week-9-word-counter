@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ThinkPad\\desktop\\WordCounter\\WordCounter.Tests\\WordCounter.Tests.csproj": {}
+    "C:\\Users\\ThinkPad\\desktop\\WordCounter\\ModelTests\\WordCounter.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ThinkPad\\desktop\\WordCounter\\WordCounter.Tests\\WordCounter.Tests.csproj": {
+    "C:\\Users\\ThinkPad\\desktop\\WordCounter\\ModelTests\\WordCounter.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ThinkPad\\desktop\\WordCounter\\WordCounter.Tests\\WordCounter.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\ThinkPad\\desktop\\WordCounter\\ModelTests\\WordCounter.Tests.csproj",
         "projectName": "WordCounter.Tests",
-        "projectPath": "C:\\Users\\ThinkPad\\desktop\\WordCounter\\WordCounter.Tests\\WordCounter.Tests.csproj",
+        "projectPath": "C:\\Users\\ThinkPad\\desktop\\WordCounter\\ModelTests\\WordCounter.Tests.csproj",
         "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ThinkPad\\desktop\\WordCounter\\WordCounter.Tests\\obj\\",
+        "outputPath": "C:\\Users\\ThinkPad\\desktop\\WordCounter\\ModelTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
