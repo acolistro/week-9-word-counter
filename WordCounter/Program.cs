@@ -18,7 +18,7 @@ namespace WordCounter {
       {
         Console.WriteLine("The word you entered is not a word.");
       }
-      else if (countMe.ContainsWord(sentence, word))
+      else if (countMe.ContainsWord(sentence, word) && (countMe.HowMany(sentence, word)) > 0)
       {
         int num = countMe.HowMany(sentence, word);
         Console.WriteLine("The sentence '" + sentence + "' contains " + num + " instances of the word '" + word + "'.");

@@ -11,8 +11,8 @@ namespace WordCounter.Tests {
     public void ContainsWord_ChecksStringForWord_bool () 
     {
       RepeatCounter test = new RepeatCounter();
-      string sentence = "Hello world";
-      string word = "llo";
+      string sentence = "Hello cat";
+      string word = "Hell";
       bool result = test.ContainsWord(sentence, word);
       Assert.IsFalse (result);
     }
@@ -20,10 +20,10 @@ namespace WordCounter.Tests {
       public void HowMany_ChecksNumberofSubstringOccurences_int () 
       {
         RepeatCounter test = new RepeatCounter();
-        string sentence = "a catty category of cats";
+        string sentence = "a cat sees a catty category of cats";
         string word = "cat";
         int result = test.HowMany(sentence, word);
-        Assert.AreEqual (3, result);
+        Assert.AreEqual (1, result);
       }
 
       // [TestMethod]

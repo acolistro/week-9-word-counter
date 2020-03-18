@@ -22,13 +22,14 @@ namespace WordCounter.Models
 
     public int HowMany(string sentence, string word)
     {
-      int counter = 0;
-      while (sentence.Contains(word))
+      string[] sentArr = sentence.Split(" ");
+      string[] wordArr = Array.FindAll(sentArr, ele => ele.Equals(word));
+      int result = 0;
+      if (wordArr.Length > 0)
       {
-        sentence = sentence.Remove(sentence.IndexOf(word),word.Length);
-        counter += 1;
+        result = wordArr.Length;
       }
-      return counter;
+      return result;
     }
     public bool Validator(string word)
     {
