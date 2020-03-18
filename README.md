@@ -12,9 +12,10 @@ _ a program that gathers both a word and sentence from a user, then checks how f
 
 | Behavior | Input | Output |
 |---|:---:|:---:|
-|Takes in a sentence from the user as a string | Hello world |"Hello world" |
-|Takes in a word from the user as a string and searches the previous string for instances of that string | Hell | True |
-|Returns the number of times that substring occurs in the sentence they gave | Hell |"the word 'Hell' occurs in your sentence 1 time." |
+|Takes in a sentence from the user as a string | Hello hell |"Hello hell" |
+|Takes in a word from the user as a string | Hell | "Hell" |
+|Searches the sentence string for instances of the word string | Hell | true |
+|Returns the number of times that word occurs in the sentence they entered | Hell |"the word 'Hell' occurs in your sentence 1 times." |
 
 ## Setup/Installation Requirements
 

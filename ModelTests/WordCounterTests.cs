@@ -26,20 +26,20 @@ namespace WordCounter.Tests {
         Assert.AreEqual (1, result);
       }
 
-      // [TestMethod]
-      // public void Validator_AccountsforCaseAndNonWords_bool () 
-      // {
-      //   RepeatCounter test = new RepeatCounter();
-      //   string word = "cat";
-      //   Assert.IsTrue(test.Validator(word));
-      // }
+      [TestMethod]
+      public void Validator_AccountsforCaseAndNonWords_bool () 
+      {
+        RepeatCounter test = new RepeatCounter();
+        string word = "cat";
+        Assert.IsTrue(test.Validator(word));
+      }
 
-      // [TestMethod]
-      // public void SentValidator_AccountsforCaseAndNonWords_bool () 
-      // {
-      //   RepeatCounter test = new RepeatCounter();
-      //   string sentence = "asdf";
-      //   Assert.IsFalse(test.Validator(sentence));
-      // }
+      [TestMethod]
+      public void SentValidator_AccountsforCaseAndNonWords_bool () 
+      {
+        RepeatCounter test = new RepeatCounter();
+        string sentence = "asdf";
+        Assert.IsFalse(test.Validator(sentence));
+      }
     }
   }
